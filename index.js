@@ -1,14 +1,14 @@
 require('dotenv').config()
 
-const cohort = process.argv[2]
+// const cohort = process.argv[2]
 const user = process.env.USER
 
 // node index.js web-49 runs this 
-if (cohort === 'web-49') {
-    console.log(`${cohort} is a nice`)
-} else {
-    console.log(`${cohort} aint great`)
-}
+// if (cohort === 'web-49') {
+//     console.log(`${cohort} is a nice`)
+// } else {
+//     console.log(`${cohort} aint great`)
+// }
 
 console.log(`the user is ${user}`)
 
